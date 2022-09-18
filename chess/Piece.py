@@ -4,7 +4,7 @@
 class Piece:
   def __init__(self, type = None):
     if type is not None: self.type = type
-    print("hello", self.type)
+    # print("hello", self.type)
  
 
 class Pawn(Piece): type = 0 
